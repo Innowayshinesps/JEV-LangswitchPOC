@@ -1,0 +1,16 @@
+{
+  "name": "jev-gemini-language-poc",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

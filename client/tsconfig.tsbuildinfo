@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/audio/microphone.ts","./src/audio/playback.ts","./src/components/debuglog.tsx","./src/components/languagestatus.tsx","./src/components/voicecontrols.tsx"],"version":"5.9.3"}

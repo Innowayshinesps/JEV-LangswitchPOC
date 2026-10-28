@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Environment secrets
+.env.*
+!.env.example
+
+# Local configuration
+.DS_Store
+Thumbs.db
+
+# Private keys and certificates
+*.pem
+*.key
